@@ -1,0 +1,210 @@
+/**
+* All variable here
+*/
+/**
+* All fonts here
+*/
+/**
+* All Default styles here
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+#__next {
+  display: block;
+  width: 100vw;
+  max-width: 1920px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#site-page {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #d41f1f;
+}
+
+ul {
+  display: block;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+ul li {
+  display: list-item;
+}
+
+/**
+* All Custom desitn style here
+*/
+.page-title {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.padding-20 {
+  padding: 20px 0;
+}
+
+/**
+* All Header styles here
+*/
+/**
+* Site header style
+**/
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  position: relative;
+  gap: 50px;
+  /**
+* Site header link style
+**/
+  /**
+  * Site header style
+  **/
+  /**
+  * Site header navigation menu style
+  **/
+}
+
+.site-header a {
+  color: #ffffff;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  /**
+    * Site header link hover style
+    **/
+}
+
+.site-header a:hover {
+  color: #d41f1f;
+}
+
+.site-header .logo {
+  display: block;
+}
+
+.site-header .logo h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.site-header .logo h1 a {
+  display: block;
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.site-header .logo h1 a:hover {
+  color: #d41f1f;
+}
+
+.site-header .nav-box {
+  display: block;
+}
+
+.site-header .nav-box .menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  gap: 50px;
+}
+
+.site-header .nav-box .menus .menu {
+  display: block;
+}
+
+/**
+* All Functiions styles here
+*/
+/**
+* All Main part style here
+*/
+.site-main {
+  display: block;
+  padding: 50px 5%;
+  min-height: 60vh;
+}
+
+/**
+* All Footer part style here
+*/
+.site-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.site-footer .footer-box {
+  display: block;
+  border-right: 1px solid #d41f1f;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+}
+
+.site-footer .footer-box:last-child {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

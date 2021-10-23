@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: $primary;
+  color: $Secondary;
+  overflow-x: hidden;
+}
+
+#__next {
+  display: block;
+  width: 100vw;
+  max-width: 1920px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#site-page {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: $Secondary;
+
+  &:hover {
+    color: $main;
+  }
+}
+
+ul {
+  display: block;
+  list-style-position: inside;
+  padding-left: 10px;
+  li {
+    display: list-item;
+  }
+}

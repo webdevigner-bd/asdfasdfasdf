@@ -1,0 +1,19 @@
+.site-footer {
+  display: flex;
+  padding: 20px 5%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background-color: $Secondary;
+  color: $primary;
+
+  .footer-box {
+    display: block;
+    border-right: 1px solid $main;
+    flex: 1 1 25%;
+  }
+
+  .footer-box:last-child {
+    border: none;
+  }
+}
